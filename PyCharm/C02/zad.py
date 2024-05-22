@@ -65,9 +65,9 @@ print(lista_zakupow)
 #print("Suma: " + str(suma))
 print("----------------------------------------")
 print("Zadanie 5\n")
-k1 = {"autor": "Haruki Murakami", "tytul": "Kafka nad morzem", "rok": 2002, }
-k2 = {"autor": "Atwood", "tytul": "Służąca opowieść", "rok": 2019, }
-k3 = {"autor": "Atwood", "tytul": "Norweski las", "rok": 1987, }
+k1 = {"autor": "Haruki Murakami", "tytul": "Kafka nad morzem", "year": 2002, }
+k2 = {"autor": "Atwood", "tytul": "Służąca opowieść", "year": 2019, }
+k3 = {"autor": "Atwood", "tytul": "Norweski las", "year": 1987, }
 d3 = [k1, k2, k3]
 print(d3[1].get("autor"))
 for i in range(len(d3)):
